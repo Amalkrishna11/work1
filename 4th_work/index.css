@@ -1,0 +1,134 @@
+body{
+    background-image: url(ChatGPT\ Image\ Jul\ 11\,\ 2026\,\ 09_45_53\ AM.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+section{
+    display: flex;
+}
+.logo{
+    color: red;
+    font-size: 40px;
+}
+.search{
+    background:transparent;
+    height: auto;
+    width: auto;
+    border:1px solid orangered;
+    color: white;
+    
+    
+   
+  
+ 
+}
+h1 span{
+    color: red;
+}
+.con button{
+    color:black;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: 45px;
+    margin-top: 30px;
+    
+}
+
+   
+
+.box{
+    background-color: black;
+    height: 270px;
+    width: 230px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 120px;
+    padding-top: 20px;
+    
+    
+}
+.con h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+.con p{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 20pxpx;
+    margin-top: 20px;
+    
+}
+.W{
+    background-color: white;
+    background-size: cover;
+    color: orangered;
+    border-radius: 10px;
+    max-width: 200px;
+    align-content: center;
+  padding: 7px;
+  margin: auto;
+    
+}
+input{
+    background:transparent;
+    align-content: left;
+    margin-right: 40px;
+   
+   outline: none;
+   border: none;
+
+    
+    
+   
+   
+}
+.box button{
+      color:rgb(255, 255, 255);
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 10px;
+    width: 190px;
+    
+    
+ 
+}
+.box span{
+    color: orange;
+}
+hr{
+    width: 180px;
+    margin: auto;
+    margin-left: 10px;
+    height: 0.1px;
+  
+   
+}
+.search button{
+    background-color: orangered;
+    color: white;
+    
+}
+
