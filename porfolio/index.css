@@ -162,3 +162,55 @@ text-align: center;
 .education-card p {
     margin-bottom: 8px;
 }
+
+#skill {
+    padding: 80px;
+    background-color: white;
+    text-align: center;
+}
+#skill h2 {
+    color: #042732;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.skill-card {
+    width: 280px;
+    background-color: #e9f8fb;
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 5px solid #0097b2;
+    transition: 0.3s;
+}
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.skill-card h3 {
+    color: #042732;
+    margin-bottom: 10px;
+}
+#contact {
+    padding: 70px;
+    background-color: #042732;
+    color: white;
+    text-align: center;
+}
+#contact h2 {
+    margin-bottom: 25px;
+    color: #00d9ff;
+}
+#contact p {
+    margin: 8px;
+}
+footer {
+    background-color: #021b24;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
