@@ -129,3 +129,36 @@ text-align: center;
 .about-content ul {
     margin-left: 20px;
 }
+
+
+#education  h2 {
+    color: #042732;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.education-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.education-card {
+    background-color: white;
+    width: 33%;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
+.education-card h3 {
+    color: #0097b2;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.education-card p {
+    margin-bottom: 8px;
+}
