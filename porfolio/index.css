@@ -38,3 +38,58 @@ color: white;
 nav a:hover {
  color: #00d9ff;
 }
+
+
+#home {
+ min-height: 600px;
+ display: flex;
+justify-content: space-between;
+align-items: center;
+ padding: 80px;
+background-color: #fff3df;
+}
+.home-content {
+    width: 65%;
+}
+.home-content h2 {
+ font-size: 42px;
+ color: #042732;
+ margin-bottom: 20px;
+}
+
+.home-content h2 span {
+    color: #0097b2;
+}
+
+.home-content p {
+ max-width: 750px;
+ margin-bottom: 25px;
+}
+
+
+.home-image {
+ width: 30%;
+text-align: center;
+}
+
+.home-image img {
+ width: 260px;
+ height: 320px;
+  object-fit: cover;
+ border-radius: 50%;
+ border: 6px solid #042732;
+}
+.button {
+ padding: 12px 22px;
+  margin-right: 10px;
+  background-color: #042732;
+  color: white;
+  border: none;
+    border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+    transition: 0.3s;
+}
+.button:hover {
+    background-color: #0097b2;
+}
